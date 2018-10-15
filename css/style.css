@@ -1,0 +1,253 @@
+html,
+body {
+    font-family: 'Pontano Sans', sans-serif;
+
+
+}
+
+/* Alert */
+
+.alert-container .col-xs-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    color: #f36b05;
+    background-color: #f5d011;
+    border-color: #f36b05;
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 5px 25px;
+    border: 1px solid transparent;
+}
+
+/* Nav */
+
+.navbar {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .25);
+    border: 0;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border: 0;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    color: white;
+}
+
+.navbar .navbar-brand:hover {
+    color: white;
+}
+
+.navbar-default .navbar-nav a {
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+
+.navbar-btn {
+    border: 0;
+    border-radius: 16px;
+    width: 100px;
+    background-color: #f05f40;
+    color: white;
+}
+
+.navbar-btn:hover {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+}
+
+
+
+
+/* Callout */
+
+.callout-container {
+    height: 100vh;
+    background: url(../images/whiskey.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 0;
+
+}
+
+.callout {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.callout-row {
+    width: 100%;
+}
+
+.callout-section {
+
+    width: 80%;
+    padding: 30px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 8px rgba(255, 94, 0, 0.15);
+    border-radius: 20px;
+    color: #ddd;
+}
+
+.jumbotron h1 {
+    color: #ffffff;
+    text-shadow: 1px 0.5px #fd5b06;
+}
+.line {
+    border: 3px solid orange;
+    border-radius: 5px;
+    width: 50%;
+    border-top-width: 0;
+    margin-bottom: 50px;
+}
+.signup {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #000000;
+    background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+    background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+    border-bottom: solid 3px #c58668;
+}
+
+.signup:active {
+    -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+    border-bottom: none;
+}
+
+.free {
+    background-color: #ffbf01;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+    color: #000000;
+    
+}
+
+/* Quotes */
+
+.quotes-container {
+    margin-bottom: 25px;
+}
+
+/* Features*/
+
+.container-wrapper-red {
+    background-color: #f05f40;
+    color: white;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
+}
+
+/* page Header */
+
+.page-header {
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px dashed #f5d011;
+
+}
+
+/* Monthly Favourites */
+
+.monthly-wrapper {
+    background-color: #f05f40;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.monthly-favourites-container {
+    background-color: #ffffff;
+    color: #000000;
+    width: 80%;
+    border-radius: 20px;
+}
+.table {
+    border-collapse: collapse;
+    margin-top: 10px;
+    width: 80%;
+    margin: 20px auto;
+}
+.table>tbody>tr>td, .table>thead>tr>td  {
+    text-align: left;
+    background-color: #fbdfaa;
+    border: 1px solid #ca0303;
+}
+
+.table>tbody>tr>th, .table>thead>tr>th {
+    background-color: #ec974c;
+    text-align: left;
+    border: 1px solid #ca0303;
+    font-weight: bold;
+}
+tr {
+    border: 1px solid #ca0303;
+}
+.heading {
+    font-weight: bold;
+    color: #ffffff;
+}
+.row-number {
+    width: 30px;
+}
+.corner {
+    visibility: hidden
+}
